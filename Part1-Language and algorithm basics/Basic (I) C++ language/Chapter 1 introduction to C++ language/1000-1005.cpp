@@ -2,7 +2,7 @@
 
 #include "iostream"
 using namespace std;
-/*
+
 // 1000
 int main(){
     int a, b;
@@ -39,7 +39,7 @@ int main(){
     cout << " " << " " << ch << endl;
     cout << " " << ch << ch << ch << endl;
     cout << ch << ch << ch << ch << ch << endl;
-}*/
+}
 
 // 1005：地球人口承载力估计
 #include <iostream>
