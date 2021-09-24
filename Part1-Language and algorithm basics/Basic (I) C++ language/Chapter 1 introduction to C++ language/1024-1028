@@ -1,0 +1,55 @@
+// 1024	保留3位小数的浮点数	
+#include <cstdio>
+ 
+int main(){
+    float a;
+    scanf("%f", &a);
+    printf("%.3f", a); 
+    return 0;
+}
+
+// 1025	保留12位小数的浮点数	
+#include <cstdio>
+ 
+int main(){
+    double a;
+    scanf("%lf", &a);
+    printf("%.12lf", a); 
+    return 0;
+}
+
+// 1026	空格分隔输出
+#include <cstdio>
+ 
+int main(){
+    char a;
+    int b;
+    float c;
+    double d;
+    scanf("%c%d%f%lf", &a, &b, &c, &d);
+    printf("%c %d %.6f %.6lf", a, b, c, d);
+    return 0;
+}
+
+// 1027	输出浮点数
+#include <cstdio>
+ 
+int main(){
+    double a;
+    scanf("%lf", &a);
+    printf("%lf\n%.5lf\n%le\n%lg", a, a, a, a);
+    return 0;
+}
+
+// 1028	字符菱形
+#include <cstdio>
+int main() {
+    char a;
+    scanf("%c", &a);
+    printf("  %c\n", a); 
+    printf(" %c%c%c\n", a, a, a); 
+    printf("%c%c%c%c%c\n", a, a, a, a, a); 
+    printf(" %c%c%c\n", a, a, a); 
+    printf("  %c\n", a); 
+    return 0;
+}
