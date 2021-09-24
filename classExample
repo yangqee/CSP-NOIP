@@ -31,3 +31,106 @@ int main(){
     putchar(66); 
     return 0;
 }
+
+========================================
+
+#include <iostream>
+using namespace std;
+ 
+int main(){
+    int a, b;
+    cin >> a >> b;
+    cout << a+b << endl;
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+ 
+int main(){
+    int a = 1;
+    cout << (a = 2) << endl;
+//  int b, c;
+//  cin >> b + c;
+    return 0;
+}
+====================================
+#include <iostream>
+#include <iomanip>
+using namespace std;
+ 
+int main(){
+    double pi = 3.1415926;
+    cout << pi << endl;
+    cout << fixed << setprecision(3) << pi << endl;
+    return 0;
+}
+
+========================================================
+//#include <iostream>
+//#include <iomanip>
+//
+//using namespace std;
+//
+//int main() {
+//  int a, b;
+//  //double c, d;
+//  cin >> a >> b;
+//  /*cout << fixed << setprecision(3) << a << " " << b << " " << c << " " << d << endl;
+//  cout << a << setw(3) << b << endl;*/
+//  cout << hex << setw(3) << a << setw(3) << b << endl;
+//  cout << setfill('#') << oct << a << setw(3) << b << endl;
+//  cout << setfill('$') << dec << a << setw(3) << b << endl;
+//  return 0;
+//}
+
+===============================================================
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <iostream>
+//#include <iomanip>
+//#include <cstdio>
+//using namespace std;
+//
+//int main() {
+//  int a, b, c;
+//  scanf("%d%*d%d", &a, &c);
+//  printf("a=%d, c=%d\n", a, c);
+//  return 0;
+//}
+============================================================
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <iostream>
+//#include <iomanip>
+//#include <cstdio>
+//using namespace std;
+//
+//int main() {
+//  /*double fnum;
+//  scanf("%lf", &fnum);
+//  printf("fnum=%.3lf\n", fnum);*/
+//  int a, b, c;
+//  cin >> a >> b >> c;
+//  printf("%8d %8d %8d\n", a, b, c);
+//  return 0;
+//}
+
+==================================================
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+using namespace std;
+ 
+int main() {
+    // round
+    // ceil 
+    // floor
+    cout << round(3.5) << endl;
+    cout << ceil(3.5) << endl;
+    cout << floor(3.5) << endl;
+    cout << endl;
+    cout << round(-3.5) << endl;
+    cout << ceil(-3.5) << endl;
+    cout << floor(-3.5) << endl;
+    return 0;
+}
